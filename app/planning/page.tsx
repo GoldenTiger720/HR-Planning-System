@@ -78,7 +78,7 @@ export default function PlanningPage() {
           <TabsContent value="schedule" className="space-y-4">
             <Card>
               <CardHeader>
-                <CardTitle>Today's Schedule</CardTitle>
+                <CardTitle>Today&apos;s Schedule</CardTitle>
                 <CardDescription>Automated assignments for {new Date().toLocaleDateString()}</CardDescription>
               </CardHeader>
               <CardContent>

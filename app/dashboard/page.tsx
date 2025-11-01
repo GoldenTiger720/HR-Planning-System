@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { mockWorkers, mockTasks, mockPerformanceReports, mockFatigueRecords } from '@/lib/mockData'
+import { mockWorkers, mockTasks, mockPerformanceReports } from '@/lib/mockData'
 import { Calendar, Users, Activity, FileText, TrendingUp, Clock, Award, AlertTriangle, ArrowRight } from 'lucide-react'
 
 export default function DashboardPage() {
@@ -85,7 +85,7 @@ export default function DashboardPage() {
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2">Dashboard</h1>
           <p className="text-muted-foreground text-lg">
-            Welcome back, {user.name}! Here's your system overview.
+            Welcome back, {user.name}! Here&apos;s your system overview.
           </p>
         </div>
 
