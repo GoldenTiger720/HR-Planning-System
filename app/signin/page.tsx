@@ -86,10 +86,10 @@ export default function SignInPage() {
           </CardContent>
           <CardFooter className="flex flex-col space-y-4">
             <Button type="submit" className="w-full" disabled={loading}>
-              {loading ? &apos;Signing in...&apos; : &apos;Sign In&apos;}
+              {loading ? 'Signing in...' : 'Sign In'}
             </Button>
             <p className="text-sm text-center text-muted-foreground">
-              Don&apos;t have an account?{' '}
+              Don't have an account?{' '}
               <Link href="/signup" className="text-primary hover:underline">
                 Sign up
               </Link>
